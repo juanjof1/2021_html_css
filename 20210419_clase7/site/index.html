@@ -18,6 +18,32 @@
             <li class="menu-item"><a href="#">Acerca de</a></li>
         </ul>
     </nav>
+    <div class="main-container">
+        <div class="container-header">
+            <h1>Datos Personales</h1>
+        </div>
+        <form class="form" action="enviar()">
+            <div class="form-group">
+                <input class="form-item" type="text" placeholder="Nombre" name="name" id="name" />
+                <input class="form-item" type="text" name="lastname" id="lastname" placeholder="Apellidos" />
+            </div>
+            <div class="form-group">
+                <input class="form-item" type="email" name="email" id="email" placeholder="Correo electronico" />
+                <input class="form-item" type="date" name="birthday" id="birthday" placeholder="Fecha de nacimiento" />
+            </div>
+            <div class="form-group">
+                <select class="form-item" name="gender" id="gender">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <input class="form-item" type="text" name="address" id="address" placeholder="Dirección" />
+            </div>
+            <div class="form-btn">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
