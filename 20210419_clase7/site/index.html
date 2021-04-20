@@ -18,6 +18,25 @@
             <li class="menu-item"><a href="#">Acerca de</a></li>
         </ul>
     </nav>
+    <div class="main-container">
+        <form class="form" action="send()">
+            <div class="form-group">
+                <input class="form-item" placeholder="Nombre" type="text" name="name" id="name"/>
+                <input class="form-item" placeholder="Apellidos" type="text" name="apellido" id="apellido"/>
+            </div>
+            <div class="form-group">
+                <input class="form-item" placeholder="Fecha de nacimiento" type="date" name="birthday" id="birthday"/>
+                <select class="form-item" placeholder="Genero" type="select" name="genero" id="genero">
+                    <option value="masculido">Masculino</option>
+                    <option value="masculido">Femenino</option>
+                    <option value="masculido">Otro</option>      
+                </select>
+            </div>
+            <div class="form-btn">
+                <button type="submit" form="form1" value="Submit">Enviar</button>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
