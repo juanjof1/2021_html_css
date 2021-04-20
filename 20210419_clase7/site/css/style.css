@@ -1,11 +1,6 @@
 * {
     box-sizing: border-box;
-    /* margin: 0; */
-}
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+    margin: 0;
 }
 
 .menu {
@@ -32,21 +27,24 @@ html, body {
 }
 
 .main-container {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #c4c6c6;
     border-radius: 0.25rem;
-    /* margin: 1rem; */
+    margin: 1rem;
     padding: 1rem;
-    width: 100%;
 }
 
 .container-header {
-    align-items: center;
-    display: flex;
+    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
 .form {
     display: flex;
     flex-flow: column nowrap;
+    margin: 1rem;
+    padding: 1rem;
     width: 100%;
 }
 
