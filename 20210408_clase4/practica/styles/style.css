@@ -1,0 +1,41 @@
+/* 
+* Esto es un comentario de múltiples 
+* líneas.
+*/
+
+/* Selectores */
+/* 1- Seleccionar por el nombre del elemento html */
+/*p {
+    border: 1px solid black;
+    color: blue; /* Esto pone el texto color azul*/
+/*}
+
+div {
+    border: 1px solid gray;
+    margin: 50px;
+}*/
+
+/* Selector por id */
+#primer-parrafo {
+    border: 1px solid coral;
+    border-radius: 5px;
+    color: rgb(68, 255, 221);
+    font-size: x-large;
+}
+
+/* Selector por clase */
+.main-parrafo {
+    color: darkgreen;
+    font-size: x-small;
+    background-color: lightblue;
+}
+
+/* Selectores combinados */
+p.rojo, h1.rojo {
+    color: red;
+}
+
+/* Selector universal*/
+* {
+    
+}
