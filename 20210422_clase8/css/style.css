@@ -1,0 +1,42 @@
+.flex-container {
+    display: flex;
+    height: 15rem;
+    background-color: grey;
+}
+
+.flex-item {
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.flex-item-1 {
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.flex-item-2 {
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    order: -1
+}
