@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    height: 15rem;
+    background-color: gray;
+}
+
+.flex-item {
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 5em;
+}
+
+
+.flex-item-order {
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 5em;
+    order: -1;
+}

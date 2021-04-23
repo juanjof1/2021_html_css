@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Fundamentos</h1>
+        <ol>
+            <li>Se basa en un contenedor flexible (Flex container)</li>
+            <li>Contiene items (flex-items)</li>
+            <li>Estos elementos le deben su flexibilidad al elemento padre.</li>
+            <li>Posee dos ejes principales. 1-Se despliega de izquierda a derecha y transversal de arriba hacia abajo.</li>
+            <li>Todo se organiza por filas o columnas. OJO! NO AMBAS!</li>
+        </ol>
+    </div>
+    <div>
+        <h1>Ejemplo 1</h1>
+        <div class="flex-container">
+            <div class="flex-item">Box 1</div>
+            <div class="flex-item">Box 2</div>
+            <div class="flex-item">Box 3</div>
+        </div>
+        
+        <p>
+            En este ejemplo se creo un contenedor flexible, el cual nos permite utilizar las propiedades del flexbos en sus elementos hijos. 
+        </p>
+        <p>Los elementos se alinearon de izquierda a derecha porque no definimos ninguna otra propiedad. En flexbox tenemos 5 propiedades</p>
+        
+        <ol>
+            <li>flex-start - Justifica a la izquierda</li>
+            <li>Flex end - Justifica a la derecha</li>
+            <li>center - Justifica al centro</li>
+            <li>space-around - distribuye el espacio uniformemente alrededor de la caja</li>
+            <li>space-between - distribulle el espacio uniformemente</li>
+            
+        </ol>
+    </div>
+    <div>
+        <h2>Ejemplo 2 - Agrupar elementos</h2>
+        <p>A la hora de diseñar un layout no siempre los elementos son lineales, muchas veces necitaremos agruparlos para mostralos de una manera u otra.</p>
+        <div class="flex-container">
+            <div class="flex-item">
+                <div>1</div>
+                <div>2</div>
+            </div>
+            <div class="flex-item">Box 2</div>
+            <div class="flex-item">Box 3</div>
+        </div>
+    </div>
+    
+    <div>
+        <h2>Ejemplo 3 - Orden</h2>
+        <p>Al existir elementos dentro del mismo grupo abstracto(flex container) podemos desplazar o cambiar el orden de los mismos. Utilizando </p>
+        <pre> order: 1</pre>
+        <pre> order: -1</pre>
+        <div class="flex-container">
+            <div class="flex-item"> Box 1</div>
+            <div class="flex-item-order">Box 2</div>
+            <div class="flex-item">Box 3</div>
+        </div>
+    </div>
+</body>
+</html>
